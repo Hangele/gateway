@@ -1,0 +1,17 @@
+gateway:
+  port: 18888
+spring:
+  rabbitmq:
+    host: #rabbitMq IP
+    port: #rabbitMq 端口
+    username: #rabbitMq 用户名
+    password: #rabbitMq 密码
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual # 开启手动确认
+        concurrency: 5 #消费者最小数量
+        max-concurrency: 20 #消费者最大数量
+        prefetch: 5 #在单个请求中处理的消息个数，他应该大于等于事务数量(unack的最大数量)
+logging:
+  config: classpath:logback-spring.xml

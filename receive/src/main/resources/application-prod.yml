@@ -1,0 +1,11 @@
+gateway:
+  port: 18888
+spring:
+  rabbitmq:
+    host: #rabbitMq IP
+    port: #rabbitMq 端口
+    username: #rabbitMq 用户名
+    password: #rabbitMq 密码
+
+logging:
+  config: classpath:logback-spring.xml
