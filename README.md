@@ -7,7 +7,6 @@
 * 数据解析网关，基于Spring boot、RabbitMQ开发的32960协议解析网关
 * 解析后数据的存储未做，可根据自身需求扩展（MySQL/MongoDB/Hbase/elk等等）
 * 此解析网关借鉴了一位大佬（署名dyy）上传至CSDN的解析源码，没有找到对应的github开源库（不过贴一个很类似的库：https://api.gitee.com/mybtc_0/ev-gb-gateway）
-* 如有侵权请联系删除
 
 ## 使用方式
 * 修改配置文件，然后正常Spring boot打包发布即可
