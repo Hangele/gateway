@@ -1,11 +1,5 @@
 package com.gateway.parse.utils;
 
-/**
- * 经纬度加密
- *
- * @author RenLong
- *
- */
 public class LonLatUtil {
 
 	private static final double pi = 3.141592653589793238462643383279502884;
