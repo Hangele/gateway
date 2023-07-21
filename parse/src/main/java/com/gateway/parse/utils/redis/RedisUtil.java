@@ -17,7 +17,7 @@ import java.util.Set;
 @Slf4j
 public class RedisUtil {
 	// Redis服务器IP
-	public static String ADDR_ARRAY1 = "39.105.131.113";
+	public static String ADDR_ARRAY1 = "";
 	// Redis的端口号
 	public static int PORT1 = 6379;
 	// Redis的数据库
