@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  * 平台应答
- * @author chb
+ * @author Hangele
  */
 @Data
 public class ReplyDataDTO extends NeCommand {

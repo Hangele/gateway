@@ -18,7 +18,7 @@ import javax.annotation.PreDestroy;
 
 /**
  * 描述: 网关服务配置启动类
- * @Author: chb
+ * @Author: Hangele
  * @Date: 2023-4-21 16:39
  */
 @Slf4j

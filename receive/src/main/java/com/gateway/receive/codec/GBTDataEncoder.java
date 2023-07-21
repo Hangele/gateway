@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 编码器
- * @author chb
+ * @author Hangele
  *
  */
 @Component

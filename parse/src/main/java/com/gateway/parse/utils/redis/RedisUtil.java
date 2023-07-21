@@ -8,12 +8,6 @@ import redis.clients.jedis.JedisPoolConfig;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * Redis工具类
- *
- * @author RenLong
- *
- */
 @Slf4j
 public class RedisUtil {
 	// Redis服务器IP
