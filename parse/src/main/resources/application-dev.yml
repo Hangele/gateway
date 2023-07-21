@@ -2,10 +2,10 @@ gateway:
   port: 18888
 spring:
   rabbitmq:
-    host: 39.105.131.113
-    port: 5672
-    username: admin
-    password: cschb899411.
+    host: #rabbitMq IP
+    port: #rabbitMq 端口
+    username: #rabbitMq 用户名
+    password: #rabbitMq 密码
     virtual-host: /
     listener:
       simple:
